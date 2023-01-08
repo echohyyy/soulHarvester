@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
         transform.Translate(direction * speed * Time.deltaTime);
 
     }
-    private void OnTriggerEnter2D(Collision2D collision)
+    private void OnColliderEnter2D(Collision2D collision)
     {
         Debug.Log("enemy hurted");
         if (!isUnbeatable && collision.collider.tag == "Weapon")
