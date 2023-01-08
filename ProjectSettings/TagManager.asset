@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Water
+  - Rock
+  - Earth
+  - Grass
+  - Weapon
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,9 +17,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Enemy
+  - Player
+  - Weapon
   - 
   - 
   - 
@@ -40,4 +46,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bottom
+    uniqueID: 3002139193
+    locked: 0
+  - name: Mediem
+    uniqueID: 2282327101
+    locked: 0
+  - name: Upper
+    uniqueID: 1391419729
+    locked: 0
+  - name: Player
+    uniqueID: 1061563629
+    locked: 0
+  - name: Above
+    uniqueID: 75991277
+    locked: 0
+  - name: UI
+    uniqueID: 4237395323
     locked: 0
